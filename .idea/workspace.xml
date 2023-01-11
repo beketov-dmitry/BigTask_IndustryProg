@@ -5,44 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61b770e1-2bf3-4189-9388-89e9216fa5a9" name="Changes" comment="step 2">
-      <change afterPath="$PROJECT_DIR$/__fixtures__/archive.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__fixtures__/first.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__fixtures__/second.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rest-api/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rest-api/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rest-api/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rest-api/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rest-api/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rest-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rest-api/src/main/java/com/example/restapi/FileController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rest-api/src/main/java/com/example/restapi/RestApiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rest-api/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rest-api/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rest-api/src/test/java/com/example/restapi/RestApiApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Archivates/RarArchivate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Archivates/ZipArchivate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Encryptions/Calculate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Encryptions/Encryptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Readers/ExpressionContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Readers/FileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Readers/JsonFileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Readers/TxtFileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Readers/XmlFileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest-api/src/main/java/com/example/restapi/FileUploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest-api/src/main/java/com/example/restapi/FileUploadResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest-api/src/main/java/com/example/restapi/FileUploadUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__fixtures__/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/__fixtures__/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__fixtures__/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/__fixtures__/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Decorator/ArchivateDecorator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Decorator/DataSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Decorator/DataSourceDecorator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Decorator/EncryptionDecorator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Decorator/FileDataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-api/src/main/java/com/example/restapi/FileController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Readers/Builder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Readers/Director.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Readers/FileReaderBuilder.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +27,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/rest-api" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -101,6 +70,15 @@
       <recent name="" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="RestApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rest-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.restapi.RestApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -121,7 +99,7 @@
       <workItem from="1673113856481" duration="12609000" />
       <workItem from="1673183059824" duration="11844000" />
       <workItem from="1673422451145" duration="132000" />
-      <workItem from="1673454856683" duration="609000" />
+      <workItem from="1673454856683" duration="9028000" />
     </task>
     <task id="LOCAL-00001" summary="some idea">
       <created>1669328586867</created>
@@ -137,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669399938168</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="step 2">
+      <created>1673456219035</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673456219035</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
