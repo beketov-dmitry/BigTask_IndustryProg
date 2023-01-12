@@ -7,7 +7,7 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
 public class ZipArchivate {
-    public String unarchivate(String data) {
+    public static String unarchivate(String data) {
         try(ZipInputStream zin = new ZipInputStream(new FileInputStream("__fixtures__/" + data))) {
             ZipEntry entry;
             String name = null;
