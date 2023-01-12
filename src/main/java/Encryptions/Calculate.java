@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 
 public class Calculate {
-    public void defineMathExpression(String data, String outputFile){
+    public static void defineMathExpression(String data, String outputFile){
         try {
 
             PrintWriter printWriter = new PrintWriter("__fixtures__/" + outputFile);

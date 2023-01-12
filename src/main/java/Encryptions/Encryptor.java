@@ -7,7 +7,7 @@ import java.util.Base64;
 import java.util.Scanner;
 
 public class Encryptor {
-    public String decode(String inputFile) {
+    public static String decode(String inputFile) {
         try {
             FileInputStream fileInputStream = new FileInputStream("__fixtures__/" + inputFile);
             Scanner scanner = new Scanner(fileInputStream);
