@@ -1,0 +1,3 @@
+[submodule "rest-api"]
+	path = rest-api
+	url = https://github.com/beketov-dmitry/rest-api.git
