@@ -37,13 +37,13 @@ My implementation supports archiving as many times as desired
 
 ![example1](https://github.com/beketov-dmitry/BigTask_IndustryProg/raw/master/images/Screenshot_7.jpg)
 
-![example2](\\images\\Screenshot_10.jpg)
+![example2](https://github.com/beketov-dmitry/BigTask_IndustryProg/raw/master/images/Screenshot_10.jpg)
 
-![example2](\\images\\Screenshot_12.jpg)
+![example2](https://github.com/beketov-dmitry/BigTask_IndustryProg/raw/master/images/Screenshot_12.jpg)
 
-![example3](\\images\\Screenshot_13.jpg)
+![example3](https://github.com/beketov-dmitry/BigTask_IndustryProg/raw/master/images/Screenshot_13.jpg)
 
-![example3](\\images\\Screenshot_14.jpg)
+![example3](https://github.com/beketov-dmitry/BigTask_IndustryProg/raw/master/images/Screenshot_14.jpg)
 
 
 
