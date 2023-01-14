@@ -4,25 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61b770e1-2bf3-4189-9388-89e9216fa5a9" name="Changes" comment="add unZip">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="61b770e1-2bf3-4189-9388-89e9216fa5a9" name="Changes" comment="refactor and Readme">
+      <change afterPath="$PROJECT_DIR$/images/Screenshot_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Screenshot_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Screenshot_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Screenshot_13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Screenshot_14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Screenshot_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Screenshot_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Screenshot_9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__fixtures__/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/__fixtures__/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__fixtures__/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/__fixtures__/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__fixtures__/second.xml" beforeDir="false" afterPath="$PROJECT_DIR$/__fixtures__/second.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__fixtures__/archive.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__fixtures__/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__fixtures__/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__fixtures__/second.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/rest-api" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-api/src/main/java/com/example/restapi/controllers/FileUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/src/main/java/com/example/restapi/controllers/FileUploadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-api/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/src/main/resources/static/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rest-api/src/main/resources/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/src/main/resources/static/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Encryptions/Calculate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Encryptions/Calculate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Encryptions/Encryptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Encryptions/Encryptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Readers/ExpressionContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Readers/ExpressionContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Readers/FileReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Readers/JsonFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Readers/JsonFileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Readers/TxtFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Readers/TxtFileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Readers/XmlFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Readers/XmlFileReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +74,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ADD-0\IdeaProjects\BigTask\images" />
       <recent name="C:\Users\ADD-0\IdeaProjects\BigTask\rest-api\src\main\resources\static\js" />
       <recent name="C:\Users\ADD-0\IdeaProjects\BigTask\__fixtures__" />
       <recent name="C:\Users\ADD-0\IdeaProjects\BigTask" />
@@ -119,6 +118,7 @@
       <workItem from="1673545379616" duration="17885000" />
       <workItem from="1673605137560" duration="27572000" />
       <workItem from="1673649473902" duration="2084000" />
+      <workItem from="1673689316584" duration="7995000" />
     </task>
     <task id="LOCAL-00001" summary="some idea">
       <created>1669328586867</created>
@@ -162,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673558716916</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="refactor and Readme">
+      <created>1673689496723</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673689496723</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +192,8 @@
     <MESSAGE value="add fileUploading" />
     <MESSAGE value="add view components(js, bootstrap)" />
     <MESSAGE value="add unZip" />
-    <option name="LAST_COMMIT_MESSAGE" value="add unZip" />
+    <MESSAGE value="refactor and Readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor and Readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
