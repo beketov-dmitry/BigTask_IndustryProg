@@ -6,16 +6,17 @@ import java.io.PrintWriter;
 import java.util.Scanner;
 
 public class TxtFileReader {
-    public String read(String filename) {
+    public static ExpressionContainer read(String filename) {
         try {
+            ExpressionContainer expressionContainer = new ExpressionContainer();
             FileInputStream fileInputStream = new FileInputStream("__fixtures__/" + filename);
             Scanner scanner = new Scanner(fileInputStream);
-            StringBuilder res = null;
+
             while(scanner.hasNextLine()){
-                res.append(scanner.nextLine());
-                res.append("\n");
+                expressionContainer.expressions.add(scanner.nextLine());
             }
-            return new String(res);
+
+            return expressionContainer;
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }

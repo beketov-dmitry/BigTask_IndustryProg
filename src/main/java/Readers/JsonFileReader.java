@@ -11,7 +11,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 public class JsonFileReader {
-    public ExpressionContainer read(String filename) {
+    public static ExpressionContainer read(String filename) {
         try {
             Gson gson = new Gson();
             FileReader reader = new FileReader("__fixtures__/" + filename);
@@ -23,7 +23,7 @@ public class JsonFileReader {
         }
     }
 
-    public void write(String filename, ExpressionContainer container){
+    public static void write(String filename, ExpressionContainer container){
         try {
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
             Writer writer = Files.newBufferedWriter(Paths.get("__fixtures__/" + filename));

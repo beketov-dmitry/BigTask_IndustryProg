@@ -13,9 +13,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class XmlFileReader {
-    public ArrayList<ExpressionContainer> read(String filename){
+    public static ExpressionContainer read(String filename){
         try {
-            ArrayList<ExpressionContainer> containerArrayList = new ArrayList<>();
+            ExpressionContainer container = new ExpressionContainer();
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
             Document doc = dBuilder.parse("__fixtures__/" + filename);
@@ -24,7 +24,8 @@ public class XmlFileReader {
 
             for (int temp = 0; temp < nList.getLength(); temp++) {
                 Node nNode = nList.item(temp);
-                ExpressionContainer tempContainer = new ExpressionContainer();
+                //ExpressionContainer tempContainer = new ExpressionContainer();
+                ArrayList<String> expressions = new ArrayList<>();
                 if (nNode.getNodeType() == Node.ELEMENT_NODE) {
                     Element eElement = (Element) nNode;
                     NodeList expList = eElement.getElementsByTagName("expression");
@@ -32,13 +33,13 @@ public class XmlFileReader {
                         Node node1 = expList.item(count);
                         if (node1.getNodeType() == node1.ELEMENT_NODE) {
                             Element exp = (Element) node1;
-                            tempContainer.expressions.add(exp.getTextContent());
+                            expressions.add(exp.getTextContent());
                         }
                     }
                 }
-                containerArrayList.add(tempContainer);
+                container.expressions = expressions;
             }
-            return containerArrayList;
+            return container;
         } catch (ParserConfigurationException | SAXException | IOException e) {
             throw new RuntimeException(e);
         }

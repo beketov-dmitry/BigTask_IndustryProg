@@ -3,7 +3,7 @@ package Readers;
 import java.util.ArrayList;
 
 public class ExpressionContainer {
-    ArrayList<String> expressions;
+    public ArrayList<String> expressions;
     public ExpressionContainer(){
         expressions = new ArrayList<>();
     }
