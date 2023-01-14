@@ -35,7 +35,7 @@ My implementation supports archiving as many times as desired
 
 ### Examples ###
 
-![example1](https://drive.google.com/file/d/1QyFdpL4FnEuJreLD6q8G5WYYjrYdKuc4/view?usp=share_link)
+![example1](https://github.com/beketov-dmitry/BigTask_IndustryProg/raw/master/images/Screenshot_7.jpg)
 
 ![example2](\\images\\Screenshot_10.jpg)
 
